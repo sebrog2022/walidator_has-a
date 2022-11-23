@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,9,121,0.7175245098039216) 35%, rgba(0,212,255,1) 100%);
+    font-size: 20px;
+}
+
+label {
+    font-size: 36px;
+}
+
+input {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.passinfo {
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+}
+
+
+
+button {
+    margin: 0 30px;
+    padding: 10px 30px;
+    background: none;
+    border: 2px solid #00cfff;
+    border-radius: 5px;
+    color: #00cfff;
+    font-size: 36px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color .3s, box-shadow .3s;
+    box-shadow: 3px 3px 10px #00cfff
+}
+
+button:hover {
+    color: #00ffae;
+    box-shadow: 3px 3px 10px #00ffae;
+}
